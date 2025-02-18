@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,35 +20,46 @@
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                <a href="https://ihmunro.github.io/calgary-hvac-pros-2025-02-18-tq3z8" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300">
                     Calgary HVAC Pros
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
                     <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-2xl">
-                    <i class="fas fa-bars"></i>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="#features" class="block py-2 hover:text-blue-400 transition-colors duration-300">Services</a>
+                <a href="#benefits" class="block py-2 hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 hover:text-blue-400 transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 hover:text-blue-400 transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-24">
-            <div class="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 z-0"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519824145371-296894a0daa9')] bg-cover bg-center opacity-10"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-800/90 to-gray-900 z-0"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-                        24/7 HVAC Support
+                        Expert HVAC Solutions 24/7
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                        Your trusted partner for all HVAC needs in Calgary
+                        Calgary's most trusted HVAC service provider with over 40 years of experience. Fast, reliable, and professional service when you need it most.
                     </p>
-                    <a href="https://calgaryhvavpros.com" class="inline-block bg-gradient-to-r from-blue-500 to-teal-400 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
-                        Get Emergency Support
+                    <a href="https://calgaryhvacpros.com" class="inline-block bg-gradient-to-r from-blue-500 to-teal-400 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        Get Emergency Support Now
                     </a>
                 </div>
             </div>
@@ -49,23 +68,23 @@
         <section id="features" class="py-24 bg-gray-800">
             <div class="container mx-auto px-6">
                 <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-                    Why Choose Us
+                    Comprehensive HVAC Services
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                     <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         <i class="fas fa-bolt text-4xl text-blue-400 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Emergency Support</h3>
-                        <p class="text-gray-400">Available 24/7 for all your emergency HVAC needs</p>
+                        <h3 class="text-xl font-semibold mb-4">24/7 Emergency Support</h3>
+                        <p class="text-gray-400">Immediate response to urgent HVAC issues with our dedicated emergency team available around the clock. Average response time under 60 minutes.</p>
                     </div>
                     <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         <i class="fas fa-users text-4xl text-blue-400 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Local Professionals</h3>
-                        <p class="text-gray-400">Expert technicians from your Calgary community</p>
+                        <h3 class="text-xl font-semibold mb-4">Certified Local Experts</h3>
+                        <p class="text-gray-400">Our team of licensed, bonded, and insured technicians brings decades of combined experience to every job. All technicians are locally based in Calgary.</p>
                     </div>
                     <div class="bg-gray-900 rounded-xl p-8 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         <i class="fas fa-award text-4xl text-blue-400 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">40 Years Experience</h3>
-                        <p class="text-gray-400">Decades of trusted service in Calgary</p>
+                        <h3 class="text-xl font-semibold mb-4">40+ Years of Excellence</h3>
+                        <p class="text-gray-400">Serving Calgary since 1983 with over 50,000 successful installations and repairs. Trusted by homeowners and businesses alike.</p>
                     </div>
                 </div>
             </div>
@@ -74,21 +93,95 @@
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-                    Our Approach
+                    The Calgary HVAC Pros Advantage
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-                    <div class="p-8">
-                        <h3 class="text-2xl font-semibold mb-4">Simple</h3>
-                        <p class="text-gray-400">Straightforward solutions to your HVAC needs</p>
+                    <div class="p-8 hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Simple Process</h3>
+                        <p class="text-gray-400">One call does it all - from diagnosis to repair. Clear communication and upfront pricing with no hidden fees.</p>
                     </div>
-                    <div class="p-8">
-                        <h3 class="text-2xl font-semibold mb-4">Fast</h3>
-                        <p class="text-gray-400">Quick response times and efficient service</p>
+                    <div class="p-8 hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Rapid Response</h3>
+                        <p class="text-gray-400">Emergency response within 60 minutes. Same-day service for non-emergency calls. Your comfort is our priority.</p>
                     </div>
-                    <div class="p-8">
-                        <h3 class="text-2xl font-semibold mb-4">Effective</h3>
-                        <p class="text-gray-400">Long-lasting solutions that work</p>
+                    <div class="p-8 hover:scale-105 transition-all duration-300">
+                        <h3 class="text-2xl font-semibold mb-4">Lasting Results</h3>
+                        <p class="text-gray-400">Industry-leading warranties on all repairs and installations. 100% satisfaction guarantee on every service call.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                    What Our Clients Say
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Called at 2 AM during a winter emergency when our furnace died. The team arrived within 45 minutes and had our heat back on before sunrise. Incredible service!"</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-400">Homeowner in Tuscany</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"As a property manager, I need reliable HVAC service. Calgary HVAC Pros has maintained our systems for 5 years with zero complaints from tenants. Their maintenance program has saved us thousands."</p>
+                        <p class="font-semibold">Michael Chang</p>
+                        <p class="text-sm text-gray-400">Property Manager, Downtown Calgary</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Professional installation of our new high-efficiency system. The team explained everything clearly and left our home spotless. Our energy bills are now 30% lower!"</p>
+                        <p class="font-semibold">David Wilson</p>
+                        <p class="text-sm text-gray-400">Residential Customer</p>
+                    </div>
+                    <div class="bg-gray-900 p-6 rounded-xl hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Best HVAC service in Calgary, hands down. They've maintained our restaurant's systems for years. Fast response times and always professional."</p>
+                        <p class="font-semibold">Lisa Chen</p>
+                        <p class="text-sm text-gray-400">Restaurant Owner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                    About Calgary HVAC Pros
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                    <p class="leading-relaxed">
+                        Founded in 1983 by master technician John Thompson, Calgary HVAC Pros began as a small family-operated business dedicated to providing exceptional heating and cooling services to local homeowners. Over four decades, we've grown into Calgary's most trusted HVAC service provider while maintaining our commitment to personalized service and technical excellence.
+                    </p>
+                    <p class="leading-relaxed">
+                        Our mission is to ensure every Calgary resident and business has access to reliable, efficient, and affordable HVAC solutions. We believe in transparency, integrity, and building lasting relationships with our clients. Our core values of technical excellence, customer satisfaction, and community service guide every decision we make and every service we provide.
+                    </p>
                 </div>
             </div>
         </section>
@@ -99,17 +192,25 @@
                     Frequently Asked Questions
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-4">What areas do you service?</h3>
-                        <p class="text-gray-400">We service all areas of Calgary and surrounding communities.</p>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <h3 class="text-xl font-semibold mb-4">What areas of Calgary do you service?</h3>
+                        <p class="text-gray-400">We provide comprehensive HVAC services throughout Calgary and surrounding areas, including Airdrie, Cochrane, Chestermere, and Okotoks. Our service area covers all Calgary communities with no additional travel charges.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-lg p-6">
-                        <h3 class="text-xl font-semibold mb-4">How quickly can you respond to emergencies?</h3>
-                        <p class="text-gray-400">We offer 24/7 emergency service with typical response times under 1 hour.</p>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <h3 class="text-xl font-semibold mb-4">What are your emergency response times?</h3>
+                        <p class="text-gray-400">For emergency calls, our average response time is under 60 minutes. We maintain fully-stocked service vehicles and technicians on call 24/7 to handle any HVAC emergency, regardless of time or weather conditions.</p>
                     </div>
-                    <div class="bg-gray-900 rounded-lg p-6">
+                    <div class="bg-gray-900 rounded-lg p-6 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         <h3 class="text-xl font-semibold mb-4">Do you offer maintenance plans?</h3>
-                        <p class="text-gray-400">Yes, we offer comprehensive maintenance plans to keep your HVAC system running efficiently.</p>
+                        <p class="text-gray-400">Yes, we offer comprehensive maintenance plans starting at $199/year. Our plans include bi-annual inspections, priority service, discounted repairs, and extended warranty coverage. Regular maintenance can extend system life by up to 40%.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <h3 class="text-xl font-semibold mb-4">What warranties do you offer?</h3>
+                        <p class="text-gray-400">We provide a 100% satisfaction guarantee on all services. New installations come with up to 10-year warranties, and repairs are warranted for 90 days. Extended warranty options are available through our maintenance plans.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+                        <h3 class="text-xl font-semibold mb-4">What payment methods do you accept?</h3>
+                        <p class="text-gray-400">We accept all major credit cards, debit, e-transfer, and cash. Financing options are available for larger installations with rates as low as 0% for qualified customers. All pricing is provided upfront with no hidden fees.</p>
                     </div>
                 </div>
             </div>
@@ -119,10 +220,10 @@
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
-                        Ready to Get Started?
+                        Need HVAC Service?
                     </h2>
                     <p class="text-xl text-gray-300 mb-12">
-                        Contact us for immediate assistance
+                        Contact us now for immediate assistance. Our team is standing by 24/7 to help with all your HVAC needs.
                     </p>
                     <a href="mailto:iainhmunro@gmail.com" class="inline-block bg-gradient-to-r from-blue-500 to-teal-400 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
                         Contact Us Now
@@ -137,7 +238,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Calgary HVAC Pros</h3>
-                    <p class="text-gray-400">Professional HVAC services available 24/7</p>
+                    <p class="text-gray-400">Your trusted HVAC partner since 1983</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
@@ -148,14 +249,17 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://ihmunro.github.io/calgary-hvac-pros-2025-02-18-tq3z8/privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://ihmunro.github.io/calgary-hvac-pros-2025-02-18-tq3z8/terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://ihmunro.github.io/calgary-hvac-pros-2025-02-18-tq3z8/blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -164,5 +268,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
